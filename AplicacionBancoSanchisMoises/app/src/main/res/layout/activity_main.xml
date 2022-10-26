@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/tvSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/TxtSaludo"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/btnPosicionGlobal"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/TxtPosicionGlobal"
+        app:icon="@android:drawable/ic_menu_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSaludo"
+        tools:text="@string/TxtPosicionGlobal" />
+
+    <Button
+        android:id="@+id/btnMovimientos"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TxtMovimientos"
+        app:icon="@android:drawable/ic_menu_upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPosicionGlobal" />
+
+    <Button
+        android:id="@+id/btnCambioContrasena"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TxtCambioContrasena"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTransferencias" />
+
+    <Button
+        android:id="@+id/btnSalirMain"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#E91E63"
+        android:text="@string/TxtSalir"
+        app:icon="@android:drawable/ic_media_rew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCajeros" />
+
+    <Button
+        android:id="@+id/btnCajeros"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TxtCajeros"
+        app:icon="@android:drawable/ic_dialog_dialer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPromociones" />
+
+    <Button
+        android:id="@+id/btnTransferencias"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TxtTransferencias"
+        app:icon="@android:drawable/ic_popup_sync"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMovimientos" />
+
+    <Button
+        android:id="@+id/btnPromociones"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TxtPromociones"
+        app:icon="@android:drawable/ic_input_get"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCambioContrasena" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AplicacionBanco-Sanchis-Moises</string>
+    <string name="TxtBienvenido">Bienvenido a tu Banco</string>
+    <string name="TxtInicioSesion">Iniciar sesion</string>
+    <string name="TxtSaludo">Bienvenido/a</string>
+    <string name="TxtEntrar">Entrar</string>
+    <string name="TxtUsuario">Usuario</string>
+    <string name="TxtPasword">Pasword</string>
+    <string name="TxtSalir">Salir</string>
+    <string name="TxtPosicionGlobal">Posicion Global</string>
+    <string name="TxtMovimientos">Movimientos</string>
+    <string name="TxtTransferencias">Transferencias</string>
+    <string name="TxtCambioContrasena">Cambiar Contraseña</string>
+    <string name="TxtPromociones">Promociones</string>
+    <string name="TxtCajeros">Cajeros</string>
+    <string name="TxtContrasenaActual">Contraseña Actual</string>
+    <string name="TxtContrasenaActualHint">Esciba aqui la contraseña actual</string>
+    <string name="TxtNuevaContrasena">Nueva Contraseña</string>
+    <string name="TxtNuevaContrasenaHint">Esciba aqui la nueva contraseña</string>
+    <string name="TxtRepiteNuevaContrasena">Repita la nueva contraseña</string>
+    <string name="TxtGuardar">Guardar</string>
+    <string name="TxtEligeCuenta">Elige tu cuenta:</string>
+    <string name="TxtCuentaPropia">Cuenta propia</string>
+    <string name="TxtCuentaAjena">Cuenta ajena</string>
+    <string name="TxtNumeroCuentaAjena">Escribe el numero de la cuenta ajena</string>
+    <string name="TxtCantidad">Cantidad:</string>
+    <string name="TxtJustificante">Enviar justificante</string>
+    <string name="TxtEnviar">Enviar</string>
+    <string name="TXtCancelar">Cancelar</string>
+    <string name="TxtCuentaOrigen">Cuenta origen</string>
+    <string name="TxtImporte">Importe</string>
+
+
+
+</resources>

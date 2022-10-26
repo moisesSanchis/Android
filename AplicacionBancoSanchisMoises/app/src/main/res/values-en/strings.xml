@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AplicacionBanco-Sanchis-Moises</string>
+    <string name="TxtBienvenido">Welcome to your Bank</string>
+    <string name="TxtInicioSesion">Login</string>
+    <string name="TxtSaludo">Welcome</string>
+    <string name="TxtEntrar">Enter</string>
+    <string name="TxtUsuario">User</string>
+    <string name="TxtPasword">Password</string>
+    <string name="TxtSalir">Exit</string>
+    <string name="TxtPosicionGlobal">Global Position </string>
+    <string name="TxtMovimientos">Movements</string>
+    <string name="TxtTransferencias">Transfers</string>
+    <string name="TxtCambioContrasena">Change Password</string>
+    <string name="TxtPromociones">Promotions</string>
+    <string name="TxtCajeros">Cashiers</string>
+    <string name="TxtContrasenaActual">Actual Password</string>
+    <string name="TxtContrasenaActualHint">Write here the actual password</string>
+    <string name="TxtNuevaContrasena">New Password</string>
+    <string name="TxtNuevaContrasenaHint">Write here the new password</string>
+    <string name="TxtRepiteNuevaContrasena">Repeat the new password</string>
+    <string name="TxtGuardar">Save</string>
+    <string name="TxtEligeCuenta">Choose your account:</string>
+    <string name="TxtCuentaPropia"> Own account</string>
+    <string name="TxtCuentaAjena"> Other people account</string>
+    <string name="TxtNumeroCuentaAjena">Enter someone else account number</string>
+    <string name="TxtCantidad">Quantity:</string>
+    <string name="TxtJustificante">Send proof </string>
+    <string name="TxtEnviar">Send</string>
+    <string name="TXtCancelar">Cancel</string>
+    <string name="TxtCuentaOrigen">Origin account </string>
+    <string name="TxtImporte">Import</string>
+</resources>
