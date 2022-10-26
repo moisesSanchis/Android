@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tema8App1</string>
+    <string name="label_hipotecas">Gestión Hipotecas</string>
+    <string name="label_nombre">Nombre:</string>
+    <string name="label_condiciones">Condiciones:</string>
+    <string name="label_contacto">Contacto:</string>
+    <string name="label_telefono">Teléfono:</string>
+    <string name="label_email">E-mail:</string>
+    <string name="label_observaciones">Observaciones:</string>
+    <string name="label_pasivo">Pasivo</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="hipoteca_crear_titulo">Nueva Hipoteca</string>
+    <string name="hipoteca_crear_confirmacion">Hipoteca creada</string>
+    <string name="hipoteca_editar_titulo">Editar Hipoteca</string>
+    <string name="hipoteca_editar_confirmacion">Hipoteca modificada</string>
+    <string name="hipoteca_eliminar_titulo">Eliminar Hipoteca</string>
+    <string name="hipoteca_eliminar_msg">¿Seguro que desea eliminar la Hipoteca?</string>
+    <string name="hipoteca_eliminar_confirmacion">Hipoteca eliminada</string>
+    <string name="menu_crear">Nuevo</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_cancelar">Cancelar</string>
+    <string name="menu_eliminar">Eliminar</string>
+</resources>
