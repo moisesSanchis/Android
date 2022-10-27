@@ -1,13 +1,13 @@
-package com.engiri.bancoapi_profe.bd;
+package com.mosapl.aplicacionbanco_sanchis_moises.api.bd;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.engiri.bancoapi_profe.dao.ClienteDAO;
-import com.engiri.bancoapi_profe.dao.CuentaDAO;
-import com.engiri.bancoapi_profe.dao.MovimientoDAO;
+import com.mosapl.aplicacionbanco_sanchis_moises.api.dao.ClienteDAO;
+import com.mosapl.aplicacionbanco_sanchis_moises.api.dao.CuentaDAO;
+import com.mosapl.aplicacionbanco_sanchis_moises.api.dao.MovimientoDAO;
 
 
 public class MiBD extends SQLiteOpenHelper {

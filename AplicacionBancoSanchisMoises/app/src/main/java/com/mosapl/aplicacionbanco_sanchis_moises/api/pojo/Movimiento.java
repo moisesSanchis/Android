@@ -1,4 +1,4 @@
-package com.engiri.bancoapi_profe.pojo;
+package com.mosapl.aplicacionbanco_sanchis_moises.api.pojo;
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;

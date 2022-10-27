@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.mosapl.aplicacionbanco_sanchis_moises.R;
+import com.mosapl.aplicacionbanco_sanchis_moises.api.pojo.Cliente;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView txtSaludo;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnSalir = (Button)findViewById(R.id.btnSalirMain);
         btnSalir.setOnClickListener(this);
         //Recuperammos la información pasada en el intent.
-        String nombrerecibido = this.getIntent().getStringExtra("Nombre");
+        Cliente clienteActual = this.getIntent().get;//Arreglar.
 
         //Construimos el mensaje a mostrar.
         txtSaludo.setText( txtSaludo.getText()+ " " + nombrerecibido);
@@ -47,8 +48,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnPosicionGlobal:
+                Intent intentPosicionGlobal = new Intent(MainActivity.this, GlobalPositionActivity.class);
+                startActivity(intentPosicionGlobal);
                 break;
             case R.id.btnMovimientos:
+                Intent intentMovimientos = new Intent(MainActivity.this, MovementsActivity.class);
+                startActivity(intentMovimientos);
                 break;
             case R.id.btnTransferencias:
                 Intent intentTransferencias = new Intent(MainActivity.this, TransferActivity.class);

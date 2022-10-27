@@ -29,4 +29,7 @@
     <string name="TXtCancelar">Cancel</string>
     <string name="TxtCuentaOrigen">Origin account </string>
     <string name="TxtImporte">Import</string>
+    <string name="TxtCuentas">Accounts:</string>
+    <string name="TxtUltimosMovimientos">Last movements:</string>
+    <string name="TxtNif">NIF</string>
 </resources>

@@ -1,12 +1,13 @@
-package com.engiri.bancoapi_profe.dao;
+package com.mosapl.aplicacionbanco_sanchis_moises.api.dao;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.text.TextUtils;
 
-import com.engiri.bancoapi_profe.bd.MiBD;
-import com.engiri.bancoapi_profe.pojo.Cliente;
-import com.engiri.bancoapi_profe.pojo.Cuenta;
+
+import com.mosapl.aplicacionbanco_sanchis_moises.api.bd.MiBD;
+import com.mosapl.aplicacionbanco_sanchis_moises.api.pojo.Cliente;
+import com.mosapl.aplicacionbanco_sanchis_moises.api.pojo.Cuenta;
 
 import java.util.ArrayList;
 

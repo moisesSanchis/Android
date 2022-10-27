@@ -28,7 +28,7 @@
         android:fontFamily="sans-serif"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/TxtUsuario"
+        android:text="@string/TxtNif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
