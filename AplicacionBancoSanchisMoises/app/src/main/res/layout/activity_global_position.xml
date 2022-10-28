@@ -28,36 +28,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPosicionGlobal" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cvTarjetaPosicionGlobal"
-        android:layout_width="336dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="32dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTarjetaPosicion"
+        android:layout_width="290dp"
+        android:layout_height="402dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCuentasPosicionGlobal">
+        app:layout_constraintTop_toBottomOf="@+id/tvCuentasPosicionGlobal" />
 
-        <ImageView
-            android:id="@+id/ivTarjetaPosicionGlobal"
-            android:layout_width="54dp"
-            android:layout_height="match_parent"
-            app:srcCompat="@android:drawable/ic_menu_send" />
 
-        <TextView
-            android:id="@+id/tvTarjetaMovientossaldo"
-            android:layout_width="264dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginTop="38dp"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/tvTarjetaMovimientosCuenta"
-            android:layout_width="264dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="64dp"
-            android:layout_marginTop="8dp"
-            android:text="TextView" />
-    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

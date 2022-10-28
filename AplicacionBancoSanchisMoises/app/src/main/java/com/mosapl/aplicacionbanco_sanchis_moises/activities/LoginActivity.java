@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
                // clienteComprobar.setNif(etUsuario.getText().toString());
                // clienteComprobar.setClaveSeguridad(etPasword.getText().toString());
                 clienteComprobar.setNif("11111111A");
-                clienteComprobar.setClaveSeguridad("1234");
+                clienteComprobar.setClaveSeguridad("12345");
                Cliente clienteExistente = api.login(clienteComprobar);
                 if (clienteExistente != null){
                     //Creamos el Intent.
